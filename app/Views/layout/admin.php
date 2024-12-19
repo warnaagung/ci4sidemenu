@@ -1,9 +1,9 @@
-<?= $this->extend('Layout\base') ?>
+<?= $this->extend('layout/base') ?>
 
 <?= $this->section('bodi') ?>
     <div class="wrapper">
         <!-- Sidebar -->
-        @include('layout.admin.sideadminhumas')
+        <!-- @include('layout.admin.sideadminhumas') -->
 
         <!-- Main Component -->
         <div class="main">
