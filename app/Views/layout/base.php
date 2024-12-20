@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.8/css/select2.min.css"
         integrity="sha512-xrbX64SIXOxo5cMQEDUQ3UyKsCreOEq1Im90z3B7KPoxLJ2ol/tCT0aBhuIzASfmBVdODioUdUPbt5EDEXmD9g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/css/toastr.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="<?= base_url('assets/css/toastr.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/style.css'); ?>">
     <title>UAM Riasec - Admin</title>
     <style>
         .img-profile {
@@ -79,8 +79,8 @@
     </script>
     {{-- </script> --}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-loading-overlay/2.1.7/loadingoverlay.min.js" integrity="sha512-hktawXAt9BdIaDoaO9DlLp6LYhbHMi5A36LcXQeHgVKUH6kJMOQsAtIw2kmQ9RERDpnSTlafajo6USh9JUXckw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="/js/toastr.min.js"></script>
-    <script src="/js/script.js"></script>
+    <script src="<?= base_url('assets/js/toastr.min.js'); ?>"></script>
+    <script src="<?= base_url('assets/js/script.js'); ?>"></script>
     <!-- @yield('jsbawah') -->
     <?= $this->renderSection('jsbawah') ?>
 </body>

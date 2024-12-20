@@ -7,7 +7,7 @@ use CodeIgniter\HTTP\ResponseInterface;
 
 class Dashboard extends BaseController
 {
-    public function aa()
+    public function index()
     {
         // die("sdsfs");
         // return "hao";

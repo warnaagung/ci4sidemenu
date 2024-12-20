@@ -4,7 +4,11 @@
     <div class="wrapper">
         <!-- Sidebar -->
         <!-- @include('layout.admin.sideadminhumas') -->
-
+        <?php 
+        // $this->view('layout/sideadminhumas'); 
+        // $this->load->view('sidebar', 'layout/sideadminhumas');
+        require_once('sideadminhumas.php');
+        ?>
         <!-- Main Component -->
         <div class="main">
             <nav class="navbar navbar-expand px-3 border-bottom">
@@ -18,9 +22,9 @@
                         <button class="btn link-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             <span
-                                class="mr-2 d-none d-lg-inline text-gray-600 small">{{ vhuman_namagelar(Auth::guard('admin')->user()->v_human()) }}</span>
+                                class="mr-2 d-none d-lg-inline text-gray-600 small">Warna Agung</span>
                             <img class="img-profile rounded-circle"
-                                src="{{ miniocek(Auth::guard('admin')->user()->v_human()->foto) ? miniourl(Auth::guard('admin')->user()->v_human()->foto) : '/img/D01.png' }}">
+                                src="<?= base_url('/assets/img/d01.png') ?>">
 
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
@@ -32,7 +36,7 @@
                 </ul>
             </nav>
             <main class="content px-3 py-2">
-                @yield('content')
+                <?= $this->renderSection('content') ?>
             </main>
         </div>
     </div>

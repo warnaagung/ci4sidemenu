@@ -13,4 +13,4 @@ $routes->get('/', [Home::class, 'index']);
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/dash', [Dashboard::class, 'aa']);
+$routes->get('/dash', [Dashboard::class, 'index']);
