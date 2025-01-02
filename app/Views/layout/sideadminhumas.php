@@ -1,7 +1,7 @@
 <aside id="sidebar">
             <div class="h-100">
                 <div class="sidebar-logo d-flex flex-column">
-                    <a href="#" class="my-auto"><img src="/img/logo32x32.png" alt="" srcset="">Admin BS5</a>
+                    <a href="/dash" class="my-auto"><img src="/img/logo32x32.png" alt="" srcset="">Admin BS5</a>
                 </div>
                 <!-- Sidebar Navigation -->
                 <ul class="sidebar-nav">
@@ -22,7 +22,7 @@
                         </a>
                         <ul id="menu1" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
                             <li class="sidebar-item">
-                                <a href="#" class="sidebar-link aktif">menu 1.1</a>
+                                <a href="/lesson/lslesson/index" class="sidebar-link aktif">menu 1.1</a>
                             </li>
                             <li class="sidebar-item">
                                 <a href="#" class="sidebar-link">Test 1.2</a>
