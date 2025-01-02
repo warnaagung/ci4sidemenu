@@ -27,6 +27,34 @@
             width: 2rem;
             object-fit: cover;
         }
+
+        /* .sidebar-logo a {
+            display: ;
+            disejajarkan dengan navbar
+        } */
+        .sidebar-logo {
+            --bs-navbar-padding-x: 0;
+            --bs-navbar-padding-y: 0.5rem;
+            display: flex !important;
+            padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+        }
+        /* mengatur logo supaya tidak mepet kiri */
+        .sidebar-logo > a {
+            margin-left: 1rem;
+        }
+        /* supaya ada jarak antara gambar dengan teks */
+        .sidebar-logo>a>img {
+            width: 2.5rem;
+            margin-right: .5rem;
+        }
+        /* kusus untuk menu yang sedang aktif */
+        .aktif {
+            background: #78c8e1ab;
+            font-weight: 700;
+            margin-left: 5px;
+            margin-right: 5px;
+            border-radius: 5px;
+        }
     </style>
     <?= $this->renderSection('cssbawah') ?>
     <!-- @yield('') -->
