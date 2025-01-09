@@ -22,7 +22,7 @@
                         </a>
                         <ul id="menu1" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
                             <li class="sidebar-item">
-                                <a href="/lesson/lslesson/index" class="sidebar-link aktif">menu 1.1</a>
+                                <a href="/lesson/lslesson/index" class="sidebar-link aktif">Lessons</a>
                             </li>
                             <li class="sidebar-item">
                                 <a href="#" class="sidebar-link">Test 1.2</a>
@@ -33,11 +33,11 @@
                         <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" data-bs-target="#menu2"
                             aria-expanded="false" aria-controls="menu2">
                             <i class="fa-regular fa-user pe-2"></i>
-                            Menu 2
+                            Master
                         </a>
                         <ul id="menu2" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
                             <li class="sidebar-item">
-                                <a href="#" class="sidebar-link">Menu 2.1</a>
+                                <a href="/master/lsstudents/index" class="sidebar-link">Students</a>
                             </li>
                             <li class="sidebar-item">
                                 <a href="#" class="sidebar-link">Menu</a>

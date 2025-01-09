@@ -36,7 +36,9 @@
                 </ul>
             </nav>
             <main class="content px-3 py-2">
+            @yield('content')
                 <?= $this->renderSection('content') ?>
+                @yield('footer')
             </main>
         </div>
     </div>
